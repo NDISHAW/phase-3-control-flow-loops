@@ -26,11 +26,7 @@ def fizzbuzz_printer
 end
 
 def reverse_string(string)
-  new = string.split("")
-  arr = []
-  length = string.length
-  length.times{ |i|  arr << new[length - (i + 1)]}
-  return arr.join("")
+  nw = string.split("")
 end
 
 p reverse_string("hello")
