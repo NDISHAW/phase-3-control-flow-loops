@@ -29,7 +29,7 @@ def reverse_string(string)
   new = string.split("")
   arr = []
   length = string.length
-  length.times{ |i|  arr << new[length - (i + 1)]}
+  length.times{ |i|  arr << new[ln - (i + 1)]}
   return arr.join("")
 end
 

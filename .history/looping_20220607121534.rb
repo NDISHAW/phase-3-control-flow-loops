@@ -8,6 +8,7 @@ end
 
 # No need to modify this code! Use this to implement the fizzbuzz_printer method.
 def fizzbuzz(num)
+  (1,,100
   if num % 3 == 0 && num % 5 == 0
     "FizzBuzz"
   elsif num % 3 == 0
@@ -20,19 +21,10 @@ def fizzbuzz(num)
 end
 
 def fizzbuzz_printer
- (1..100).each do |num|
-  puts fizzbuzz(num)
- end
+
 end
 
-def reverse_string(string)
-  new = string.split("")
-  arr = []
-  length = string.length
-  length.times{ |i|  arr << new[length - (i + 1)]}
-  return arr.join("")
+def reverse_string(str)
+  
 end
 
-p reverse_string("hello")
-# i=0
-# string.le
